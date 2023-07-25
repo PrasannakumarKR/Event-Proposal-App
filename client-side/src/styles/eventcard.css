@@ -1,0 +1,238 @@
+.ec-main-cont {
+    height: fit-content;
+    margin-top: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D4D7DB;
+    border-radius: 4px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ec-main-cont:hover {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #425E81;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.ec-cont-top {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid#D4D7DB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 31px 10px 31px;
+}
+
+.ec-en {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    color: #081838;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.ec-cont-bot {
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.ec-dis {
+    font: normal normal normal 16px/18px Helvetica Neue;
+    font-family: "Helvetica Neue", sans-serif;
+    letter-spacing: 0.48px;
+    color: #081838;
+    opacity: 1;
+}
+
+.ec-bot-1 {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D4D7DB;
+    padding-left: 10px;
+}
+
+.ec-bot-2 {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D4D7DB;
+    padding-left: 10px
+}
+
+.ec-bot-3 {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D4D7DB;
+    padding-left: 10px
+}
+
+.ec-bot-4 {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D4D7DB;
+    padding-left: 10px
+}
+
+.ec-bot-5 {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D4D7DB;
+    padding-left: 10px
+}
+
+.ec-bot-top {
+    height: 50%;
+    width: 100%;
+    color: #AAAAAA;
+    display: flex;
+    align-items: center;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    color: #AAAAAA;
+    opacity: 1;
+    align-items: center
+}
+
+.ec-bot-bot {
+    height: 50%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    color: #081838;
+    opacity: 1;
+    display: flex;
+    padding-top: 3px;
+    font-weight: 600;
+
+}
+
+.ec-bot-6 {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    padding-right: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+    padding: 10px;
+}
+
+.ec-bot-1,
+.ec-bot-2,
+.ec-bot-3,
+.ec-bot-4,
+.ec-bot-5,
+.ec-bot-6 {
+    padding: 10px;
+}
+.ec-edit-del {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.ec-edit {
+    width: 22px;
+    height: 22px
+}
+
+.ec-bin {
+    width: 17px;
+    height: 24px;
+}
+
+@media (max-width: 800px) {
+    .ec-main-cont {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ec-en , .ec-bot-top  {
+        font-size: 15px;
+    }
+    .ec-bot-bot {
+        font-size: 13px;
+    }
+
+    .ec-dis {
+        font-size: 12px;
+    }
+
+    .ec-cont-bot {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .ec-bot-1,
+    .ec-bot-2,
+    .ec-bot-3,
+    .ec-bot-4,
+    .ec-bot-5,
+    .ec-bot-6 {
+        border-right: none;
+        border-bottom: 1px solid #D4D7DB;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .ec-bot-top  {
+        width: 50%;
+        font-size: 12px;
+        
+    }
+    .ec-bot-bot {
+        padding: 0;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+    .ec-bot-6 {
+        justify-content: center;
+    }
+    .ec-edit {
+        height: 12px;
+        width: 12px;
+    }
+    .ec-bin {
+        height: 14px;
+        width: 12px;
+    }
+    .ec-cont-top {
+        padding: 10px;
+    }
+    .ec-main-cont{
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ec-edit-del {
+        margin-top: 0px;
+    }
+
+}

@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.oi-main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+}
+.oi-img-cont {
+    height: 100%;
+    width: 90%;
+    background-color: wheat;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Set both the track and thumb color to transparent */
+}
+
+/* For Webkit-based browsers (Chrome, Safari) */
+.oi-img-cont::-webkit-scrollbar {
+    width: 6px; /* Adjust the width as needed */
+}
+
+.oi-img-cont::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.oi-img-cont::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.oi-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+.oi-file-inputs {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.file-input {
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.submit-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.submit-button {
+    height: 30px;
+    width: 120px;
+    border-radius: 10px ;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgb(130, 130, 249);
+}
+.oi-file {
+    border-radius: 0px !important;
+    
+}
+.submit-button1 {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgb(130, 130, 249);
+}

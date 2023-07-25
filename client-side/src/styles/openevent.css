@@ -1,0 +1,216 @@
+.oe-main {
+    display: flex;
+    flex-direction: column;
+}
+.ec1-main {
+height: 100%;
+width: 300px;
+border: 1px solid rgb(225, 222, 222);
+
+}
+.oe-body {
+    height: fit-content;
+    padding: 20px 40px;
+}
+.oe-row {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+
+    width: 100%;
+}
+.oe-des {
+    width: 100%;
+    flex-grow: 1;
+    border: 1px solid rgb(225, 222, 222);
+    padding: 10px;
+    border-radius: 10px;
+}
+.oe-p1 {
+    width: 30%;
+    height: 100%;;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.oe-p2 , .oe-p3 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.ec1-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.ec1-t {
+    height: 60%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ec1-t1 {
+    overflow: hidden;
+}
+.oe-sel-ev {
+    background-color: #64A1F5;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 900;
+    width: fit-content;
+    padding: 5px 20px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 10px;
+}
+.oe-sel-div {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ec1-b {
+    flex-grow: 1;
+}
+.ec1-b-1 {
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px solid rgb(225, 222, 222);
+    display: flex;
+    flex-direction: row;
+}
+.ec1-b-11 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.ec1-b-1-l {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 6px;
+    border-right: 1px solid rgb(225, 222, 222);
+    font-size: 12px;
+    font-weight: 600;
+}
+.ec1-b-3-l {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+}
+.ec1-b-3-ll {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 6px;
+    border-right: 1px solid rgb(225, 222, 222);
+    font-size: 12px;
+    font-weight: 600;
+}
+.ec1-b-3-ll1 {
+    width: 50%;
+    font-size: 11px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(225, 222, 222);
+}
+.ec1-b-4 {
+    width: 100%;
+    height: 25%;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(225, 222, 222);
+    display: flex;
+    flex-direction: row;
+}
+.ec1-b-1-r {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 12px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.oe-p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oe-imgs-grid {
+    width: 360px;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.oe-r {
+    height: 33.333333%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.oe-grid {
+    height: 100%;
+    width: 33.33333333%;
+    border: 1px solid rgb(225, 222, 222);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ec1-b-1-l2 {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid rgb(225, 222, 222);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    font-weight: 600;
+}
+.ec1-b-1-r3 {
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .oe-row {
+        display: flex;
+        flex-direction: column;
+        aspect-ratio: 1/1;
+        width: 100%;
+        height: 1000px;
+    }
+    .oe-p1, .oe-p2, .oe-p3 {
+        width: 100%;
+    }
+    .oe-p1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
