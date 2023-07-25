@@ -3,8 +3,8 @@ const app = express();
 const cors = require('cors')
 const mongoose = require('mongoose');
 const vendorSignup = require('./routes/vendorRoutes/vendorSignup');
-const vendorSignin = require('./routes/vendorRoutes/vendorSignin')
-require('dotenv').config()
+const vendorSignin = require('./routes/vendorRoutes/vendorSignin');
+const dotenv = require('dotenv').config();
 const userSignup = require('./routes/userRoutes/userSignup');
 const userSignin = require('./routes/userRoutes/userSignin');
 const authCheck = require('./routes/authCheck')
