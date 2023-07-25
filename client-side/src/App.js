@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import VendorSigninPage from './components/landingPages/VendorSigninPage'
 import VendorSignupPage from './components/landingPages/VendorSignupPage';
-import './styles/app.css';
+import './styles/App.css';
 import UserSigninPage from './components/landingPages/UserSinginPage';
 import UserSignupPage from './components/landingPages/UserSignupPage';
 import ProposalsPage from './components/vendorComponents/ProposalsPage';
